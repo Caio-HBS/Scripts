@@ -2,6 +2,7 @@
 
 
 # Handling zsh
+echo
 echo "Looking for zsh..."
 
 if which zsh >/dev/null 2>&1; then
@@ -23,6 +24,7 @@ else
 fi
 
 # Handling ohmyzsh
+echo
 echo "Checking if ohmyzsh is installed..."
 if [ -d "$HOME/.oh-my-zsh" ]; then
     echo "Oh My Zsh is already installed."
