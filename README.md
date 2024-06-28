@@ -7,5 +7,9 @@ Simple useful shell scripts.
 Cloning the repo:
 
 ```Shell
-git clone https://github.com/Caio-HBS/Scripts.git /home/caiohbs/Public/Scripts # Change the path to reflect your username
+git clone https://github.com/Caio-HBS/Scripts.git /home/caiohbs/Scripts
 ```
+
+# License
+
+This project is licensed under the MIT License.
