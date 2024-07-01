@@ -10,7 +10,6 @@ if which zsh >/dev/null 2>&1; then
 else
     echo "Zsh not found. Installing zsh..."
     sudo apt-get install zsh
-
     zsh_version=$(zsh --version | awk '{print $2}')
 
     if printf '%s\n' "5.0.8" "$current_version" | sort -V -C; then
@@ -18,7 +17,7 @@ else
         chsh -s $(which zsh)
         echo "Successfully made zsh the default shell."
     else
-        echo -e "\033[0;31m\nNo suitable version of zsh found, please verify installation.\033[0m"
+        echo -e "\033[0;31mNo suitable version of zsh found, please verify installation.\033[0m"
         exit 1
     fi
 fi
@@ -31,9 +30,9 @@ if [ -d "$HOME/.oh-my-zsh" ]; then
 else
     echo "ohmyzsh not found. Installing ohmyzsh..."
     sudo apt-get install git wget curl
-
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-
-
+echo
+echo -e "\033[0;36mOh My Zsh installed. Restart this shell to start using it.\033[0m"
+echo -e "\033[0;36mDon't forget to set the theme to \033[1;36m'steeef'.\033[0m"
