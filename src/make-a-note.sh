@@ -27,6 +27,5 @@ if [ ! -f "$full_file_path" ]; then
     touch "${full_file_path}.txt"
 fi
 
-#Open file
-nohup gedit "${full_file_path}" &
-exit
+# Open file
+nohup gedit "${full_file_path}.txt" &>/dev/null &
