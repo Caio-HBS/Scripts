@@ -1,4 +1,13 @@
 #!/bin/bash
+# filename          : make-a-note.sh
+# description       : Facilitates the use of Gnome text editor to take notes
+# author            : Caio Bianchi (Caio-HBS)
+# date              : 08/18/2024
+# version           : 0.1
+# usage             : ./a-remove.sh
+# license           : MIT License
+#===============================================================================
+
 
 # "Notes" folder check
 notes_folder="$HOME/Notes"
