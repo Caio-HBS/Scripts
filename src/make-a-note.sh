@@ -4,7 +4,7 @@
 # author            : Caio Bianchi (Caio-HBS)
 # date              : 08/18/2024
 # version           : 0.1
-# usage             : ./a-remove.sh
+# usage             : ./a-make-a-note.sh
 # license           : MIT License
 #===============================================================================
 
