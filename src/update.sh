@@ -1,4 +1,13 @@
 #!/bin/bash
+# filename          : a-remove.sh
+# description       : Facilitates the use of "apt update" and "upgrade"
+# author            : Caio Bianchi (Caio-HBS)
+# date              : 06/27/2024
+# version           : 0.1
+# usage             : ./a-remove.sh
+# license           : MIT License
+#===============================================================================
+
 
 sudo apt-get update
 

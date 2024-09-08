@@ -1,4 +1,12 @@
 #!/bin/bash
+# filename          : a-remove.sh
+# description       : Executes the autoremove command
+# author            : Caio Bianchi (Caio-HBS)
+# date              : 06/28/2024
+# version           : 0.1
+# usage             : ./a-remove.sh
+# license           : MIT License
+#===============================================================================
 
 
 # Handling zsh
